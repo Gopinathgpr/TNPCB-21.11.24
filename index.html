@@ -1,0 +1,1447 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TNPCB</title>
+<!-- CSS Files -->
+<link href="css/custom.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/color.css" rel="stylesheet">
+<link href="css/all.css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<link href="css/slick.css" rel="stylesheet">
+<link rel="icon" href="images/logos/logo_tnpcb.png" type="image/png">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<!-- Include Fancybox CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+<!-- Include Fancybox JS -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+
+
+<!--Rev Slider Start-->
+<link rel="stylesheet" href="js/rev-slider/css/settings.css"  type='text/css' media='all' />
+<link rel="stylesheet" href="js/rev-slider/css/layers.css"  type='text/css' media='all' />
+<link rel="stylesheet" href="js/rev-slider/css/navigation.css"  type='text/css' media='all' />
+<!--Rev Slider End-->
+
+</head>
+<body>
+<!--Wrapper Start-->
+<div class="wrapper"> 
+  <!--Header Start-->
+  <header class="wf100 header-two" id="navHeight">
+    <!-- <div id="closetopbar" class="topbar wf100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-7">
+           
+          </div>
+          <div class="col-md-3 col-sm-7">
+            <div class="search-container">
+              <input type="text" class="search-bar" placeholder="Search...">
+              <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+          </div>
+          
+          
+          
+          </div>
+
+          <div class="col-md-3 col-sm-5 ">
+            <ul class="social-icons">
+                <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        
+        
+        </div>
+      </div>
+    </div> -->
+
+          <!-- toolbar menu starting -->
+
+          <div id="tl-topbar" class="tl-topbar d-xl-flex d-none">
+            <!-- Main Navigation and Controls -->
+            <div
+              class=""
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div class="tl-topbar-menu">
+                <ul
+                  class="unstyled list-inline"
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                  "
+                >
+                  <!-- Font Size Controls -->
+                  <li>
+                    Font Size:
+                    <span
+                      data-size="13px"
+                      class="change-fs mm-fontsize"
+                      style="font-size: 12px; margin-left: 8px"
+                    >
+                      <a
+                        href="#"
+                        id="btn-decrease"
+                        style="font-size: 12px"
+                        aria-label="Decrease font size"
+                        >A</a
+                      >
+                    </span>
+                    <span
+                      data-size="16px"
+                      class="change-fs mm-fontsize"
+                      style="font-size: 14px; margin: 0 8px"
+                    >
+                      <a
+                        href="#"
+                        id="btn-orig"
+                        style="font-size: 14px"
+                        aria-label="Original font size"
+                        >A</a
+                      >
+                    </span>
+                    <span
+                      data-size="18px"
+                      class="change-fs mm-fontsize"
+                      style="font-size: 18px"
+                    >
+                      <a
+                        href="#"
+                        id="btn-increase"
+                        style="font-size: 16px"
+                        aria-label="Increase font size"
+                        >A</a
+                      >
+                    </span>
+                  </li>
+    
+                  <!-- Date and Time -->
+                  <li id="current-time"></li>
+    
+                  <!-- Language Option -->
+                  <!-- <li class="search-sec" id="tamilButton"><a href="TAMIL/index.php">தமிழ் வடிவம்</a></li> -->
+                  <li class="search-sec" id="tamilButton">
+                    <a href="javascript:;">தமிழ் வடிவம்</a>
+                  </li>
+                  <li class="search-sec" id="englishButton" style="display: none">
+                    <a href="javascript:;">English</a>
+                  </li>
+    
+                  <!-- Color Pickers -->
+                  <li>
+                    <a
+                      class="blue clr-pick clr-pick-1"
+                      id="blue"
+                      aria-label="Blue theme"
+                      href="javascript:;"
+                      onclick="changeSheet('assets/css/style4.css')"
+                    ></a>
+                    <a
+                      class="green clr-pick clr-pick-2"
+                      id="green"
+                      aria-label="Green theme"
+                      href="javascript:;"
+                      onclick="changeSheet('assets/css/style3.css')"
+                    ></a>
+                    <a
+                      class="yellow clr-pick clr-pick-3"
+                      id="yellow"
+                      aria-label="Yellow theme"
+                      href="javascript:;"
+                      onclick="changeSheet('assets/css/style2.css')"
+                    ></a>
+                    <a
+                      class="red clr-pick clr-pick-4"
+                      id="red"
+                      aria-label="Red theme"
+                      href="javascript:;"
+                      onclick="changeSheet('assets/css/style1.css')"
+                    ></a>
+                    <a
+                      class="blueviolet clr-pick clr-pick-5"
+                      id="blueviolet"
+                      aria-label="Blueviolet theme"
+                      href="javascript:;"
+                      onclick="changeSheet('assets/css/style5.css')"
+                    ></a>
+                  </li>
+    
+                  <!-- Screen Reader Access -->
+                  <li>
+                    <a
+                      href="https://tnpcb.gov.in/screenreader.php"
+                      target="_blank"
+                      aria-label="Screen reader access"
+                      >Screen Reader Access</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+    
+            <!-- Social Media Links -->
+            <!-- <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <form role="form" action="search_text.php" method="post">
+                        <div class="form-group" style="display: flex;justify-content: space-between; align-items: center;">
+    
+                            <input type="text" class="form-control" name="txt-search" pattern="[a-zA-Z0-9 ]*"
+                                id="txt-search" placeholder="Type your search character" required>
+                            <button type="submit" name="submit" id="submit" aria-label="Search">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div> -->
+            <!-- <div style="text-align: center;">
+              <form action="/search" method="get" style="display: inline">
+                <div style="position: relative; display: inline-block">
+                  <input
+                    type="text"
+                    name="query"
+                    placeholder="Search..."
+                    style="
+                      width: 300px;
+                      padding: 1px 40px 1px 5px;
+                      border: 1px solid #ccc;
+                      border-radius: 5px;
+                      font-size: 16px;
+                    "
+                    class="search-start"
+                  />
+                  <i
+                    class="fas fa-search"
+                    style="
+                      position: absolute;
+                      top: 40%;
+                      right: 10px;
+                      transform: translateY(-50%);
+                      font-size: 16px;
+                      color: #007bff;
+                    "
+                  ></i>
+                </div>
+              </form>
+            </div> -->
+            <div class="searchbar">
+              <input type="text" placeholder="Search...">
+              <div class="search"></div>
+            </div>
+            <div class="tl-topbar-social-links" style="display: flex">
+              <ul class="unstyled list-inline" style="display: flex">
+                <li>
+                  <a
+                    href="https://www.facebook.com/Tamil-Nadu-Pollution-Control-Board-101654929163029"
+                    target="_blank"
+                    aria-label="Facebook"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/tnpcbofficial/"
+                    target="_blank"
+                    aria-label="Instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/Tnpcbofficial"
+                    target="_blank"
+                    aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="Vimeo"
+                    ><i class="fab fa-vimeo"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+    
+          <!-- toolbar menu ending -->
+
+    <div class="nav1">
+    <div  class=" h3-logo-row wf100">
+      <div class="container cont">
+        <div class="row">
+          <div class="col-md-2 col-sm-2 ">
+            <div class="h3-logo"> <a href="index.html"><img src="images/logos/TNPCB-80.jpg" alt=""></a></div>
+          </div>
+          <div class="col-sm-6  col-md-6 ml-auto  h-line">
+            <h3 style="color: #0f64b9;">
+              <span class="headertitle2" >தமிழ்நாடு மாசு கட்டுப்பாடு வாரியம்</span>
+              <span class="headertitle" >TAMILNADU POLLUTION CONTROL BOARD</span>
+             
+            </h3>
+          </div>
+          <button class="col-sm-2 col-md-2 btn-v d-flex flex-column">
+            <div style="font-size: smaller;">Toll Free:</div>
+            <div> <b>1800 4256 750</b></div>
+           
+          </button>
+          
+          <div class="col-md-2 col-sm-2">
+            <div class="logo-end"> <a href="index.html"><img src="images/logos/tamilnadu.png" alt=""></a></div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="h3-navbar wf100">
+      <div class="container1">
+        <nav class="navbar">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="nav-item"> <a href="#"><i class="fas fa-home"></i></a>
+                
+              </li>
+            
+              <li class="nav-item dropdown"> <a class="nav-link" href="" data-toggle="dropdown"> About Us <span class="nav-indicator"> <i class="caret"></i> </span> </a>
+                <ul class="dropdown-menu" role="menu">
+
+                  <li class="nav-item"><a href="/about-z.html">About TNPCB</a></li>
+
+                  <li class="nav-item"><a href="">Board Members</a></li>
+
+                  <li class="nav-item"><a href="">Organization Structure</a></li>
+				          <li class="nav-item"><a href="">Functions </a></li>
+				          <li class="nav-item"><a href="">TNPCB Brochure </a></li>
+				          <li class="nav-item"><a href="">Projects</a></li>
+				          <li class="nav-item"><a href="" download="">Board Initiatives</a></li>
+                  <li class="nav-item"><a href="" download="">Policy Note</a></li>
+                </ul>
+
+              </li>
+             
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Laboratories</a>
+
+              
+
+              </li>
+             
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Environmental Standards <span class="nav-indicator"><i class="caret"></i></span> </a> 
+
+                <ul class="dropdown-menu" role="menu">
+
+                  <li class="nav-item"><a href="#">Pollution control law series</a></li>
+
+                  <li class="nav-item"><a href="#">MoEF&CC Guidelines </a></li>
+
+                  <li class="nav-item"><a href="#">Industrial standards</a></li>
+
+                  <li class="nav-item"><a href="#">Air Environment </a></li>
+
+                  <li class="nav-item"><a href="#">Water Environment</a></li>
+
+				          <li class="nav-item"><a href="#">Noise Environment </a></li>
+                </ul>
+
+              </li>
+              
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Enironmental Legislations <span class="nav-indicator"><i class="caret"></i></span> </a>
+
+                <ul class="dropdown-menu" role="menu">
+
+                  <li class="nav-item"><a href="#">Water Act</a></li>
+
+                  <li class="nav-item"><a href="#">Air Act  </a></li>
+
+                  <li class="nav-item"><a href="#">Environmental Protection Act </a></li>
+
+                  <li class="nav-item"><a href="#">EIA Notification</a></li>
+
+                  <li class="nav-item"><a href="#">CRZ Notification</a></li>
+                  <li class="nav-item"><a href="#">Board Proceedings</a></li>
+                  <li class="nav-item"><a href="#">Circular</a></li>
+                  <li class="nav-item"><a href="#">Government Orders </a></li>
+                  <li class="nav-item"><a href="#">Compendium of Orders</a></li>
+                </ul>
+
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Information & Publications<span class="nav-indicator"> <i class="caret"></i> </span> </a>
+
+                <ul class="dropdown-menu" role="menu">
+
+                  <li class="nav-item"><a href="#">TNPCB and You</a></li>
+                  <li class="nav-item"><a href="#">Annual Reports</a></li>
+                  <li class="nav-item"><a href="#">CETP</a></li>
+                  <li class="nav-item"><a href="#">17 category Industries</a></li>
+                  <li class="nav-item"><a href="#">Closure details</a></li>
+                  <li class="nav-item"><a href="#">Pet Coke</a></li>
+				        </ul>
+				
+
+              </li>
+
+
+              <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="dropdown">Consent Management<span class="nav-indicator"> <i class="caret"></i> </span> </a>
+
+                <ul class="dropdown-menu" role="menu">
+
+                  <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="dropdown">Apply for consent<span class="nav-indicator"> <i   class="caret"></i> </span> </a>
+                    <ul class="subdropdown-menu" role="menu">
+                      <li class="subnav-item"><a href="#">OCMMS</a>  
+                    </ul>
+                  </li>
+
+                  <li class="nav-item"><a href="#">Fee details</a></li>
+                  <li class="nav-item"><a href="#">Applications for industry</a></li>
+                  <li class="nav-item"><a href="#">Power delegation</a></li>
+                  <li class="nav-item"><a href="#">DLCC</a></li>
+                  <li class="nav-item"><a href="#">ZLCC</a></li>
+                  <li class="nav-item"><a href="#">CCC</a></li>
+                  <li class="nav-item"><a href="#">TSC</a></li>
+                  
+                </ul>
+			       </li>
+         
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Waste Management<span class="nav-indicator"><i class="caret"></i></span> </a>
+
+                <ul class="dropdown-menu dropdown-menu-rt" role="menu" style="width:auto;">
+
+                  <li class="nav-item"><a href="#">Solid Waste Management</a></li>
+                  <li class="nav-item"><a href="#">Hazardous Waste Management</a></li>
+                  <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="dropdown">Plastic Waste Management<span class="nav-indicator"> <i   class="caret"></i> </span> </a>
+                    <ul class="subdropdown-menu" role="menu">
+                      <li class="subnav-item"><a href="#">Meendum Manjappai</a>  
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="dropdown">Biomedical Waste Management<span class="nav-indicator"> <i   class="caret"></i> </span> </a>
+                    <ul class="subdropdown-menu" role="menu">
+                      <li class="subnav-item"><a href="#">OBMWMS</a>  
+                    </ul>
+                  </li>
+                  <li class="nav-item"><a href="#">Construction and Demolition Waste</a></li>
+                  <li class="nav-item"><a href="#">E-waste Management</a></li>
+                  <li class="nav-item"><a href="#">Battery Waste Management</a></li>
+                </ul>
+			        </li>
+
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Realtime Monitoring <span class="nav-indicator"><i class="caret"></i></span> </a>
+                <ul class="dropdown-menu dropdown-menu-rt" role="menu" style="width:auto;">
+                  <li class="nav-item"><a href="#">Air/water</a></li>
+                  <li class="nav-item"><a href="#">AQI</a></li>
+                </ul>
+			        </li>
+
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Citizen corner<span class="nav-indicator"><i class="caret"></i></span> </a>
+                <ul class="dropdown-menu dropdown-menu-rt" role="menu" style="width:auto;">
+                  <li class="nav-item"><a href="#">Open house</a></li>
+                  <li class="nav-item"><a href="#">OLGPRS</a></li>
+                  <li class="nav-item"><a href="#">RTI</a></li>
+                  <li class="nav-item"><a href="#">Public Gos</a></li>
+                  <li class="nav-item"><a href="#">Public Hearing</a></li>
+                  <li class="nav-item"><a href="#">Environmental Awareness</a></li>
+                </ul>
+			        </li>
+
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Court Cases<span class="nav-indicator"><i class="caret"></i></span> </a>
+                <ul class="dropdown-menu dropdown-menu-rt" role="menu" style="width:auto;">
+                  <li class="nav-item"><a href="#">NGT</a></li>
+                </ul>
+			        </li>
+
+             
+
+            </ul>
+            
+          </div>
+        </nav>
+      </div>
+    </div> 
+  </div> 
+  </header>
+
+  <!--Header End--> 
+  <!--Slider Start-->
+  <div  class="main-slider wf100">
+    <div class="home2-slider rev_slider_wrapper"> 
+      
+      <!-- START REVOLUTION SLIDER -->
+      <div class="rev_slider_wrapper fullwidthbanner-container">
+        <div id="rev-slider2" class="rev_slider fullwidthabanner">
+          <ul>
+            <li data-transition="fade"> <img src="images/sliderimg/s1.jpg"  alt="" width="1920" height="685" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+              <!-- <div class="tp-caption  tp-resizeme" 
+							data-x="left" data-hoffset="400" 
+							data-y="top" data-voffset="175" 
+							data-transform_idle="o:1;"         
+							data-transform_in="x:[-75%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+							data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+							data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
+							data-splitin="none" 
+							data-splitout="none"
+							data-start="700">
+                
+              </div> -->
+              <!-- <div class="tp-caption  tp-resizeme" 
+							data-x="left" data-hoffset="400" 
+							data-y="top" data-voffset="345" 
+							data-transform_idle="o:1;"         
+							data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+							data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+							data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
+							data-splitin="none" 
+							data-splitout="none"
+							data-start="700">
+                <div class="slide-content-box">
+                  <p>Follow the Decmocracy for Good Governance in our Country</p>
+                </div>
+              </div> -->
+              <!-- <div class="tp-caption  tp-resizeme" 
+							data-x="left" data-hoffset="400" 
+							data-y="top" data-voffset="410" 
+							data-transform_idle="o:1;"         
+							data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+							data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+							data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
+							data-splitin="none" 
+							data-splitout="none"
+							data-start="700">
+                <div class="slide-content-box"> <a href="#" class="con">Join us Now</a> </div>
+              </div> -->
+            </li>
+            <li data-transition="slidehorizontal"> <img src="images/sliderimg/s2.jpg"  alt="" width="1920" height="685" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+              <!-- <div class="tp-caption  tp-resizeme"
+							data-x="left" data-hoffset="400" 
+							data-y="top" data-voffset="175" 
+							data-transform_idle="o:1;"         
+							data-transform_in="x:[-75%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+							data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+							data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
+							data-splitin="none"
+							data-splitout="none"
+							data-start="700">
+                <div class="slide-content-box">
+                  <h1>Good Governance is<br>
+                    Part of the Democracy</h1>
+                </div>
+              </div>
+              <div class="tp-caption  tp-resizeme" 
+							data-x="left" data-hoffset="400" 
+							data-y="top" data-voffset="345" 
+							data-transform_idle="o:1;"         
+							data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+							data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+							data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
+							data-splitin="none" 
+							data-splitout="none"
+							data-start="700">
+                <div class="slide-content-box">
+                  <p>City Council is the legislative branch of State & Government as<br>
+                    defined by the current Mayor Council Act</p>
+                </div>
+              </div>
+              <div class="tp-caption  tp-resizeme" 
+							data-x="left" data-hoffset="400" 
+							data-y="top" data-voffset="450" 
+							data-transform_idle="o:1;"         
+							data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
+							data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
+							data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" 
+							data-splitin="none" 
+							data-splitout="none"
+							data-start="700">
+                <div class="slide-content-box"> <a href="#" class="con">Learn More</a> </div>
+              </div> -->
+            </li>
+            <li data-transition="slidehorizontal"> <img src="images/sliderimg/s3.jpg"  alt="" width="1920" height="685" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+            <li data-transition="slidehorizontal"> <img src="images/sliderimg/s4.jpg"  alt="" width="1920" height="685" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+           
+          </ul>
+        </div>
+      </div>
+      <!-- END REVOLUTION SLIDER --> 
+      
+    </div>
+  </div>
+  <!--Slider End--> 
+  <!--Main Content Start-->
+  <div class="main-content"> 
+    <!--Mayor Msg with Video Start-->
+    <section class="Mayor-video-msg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-5"> 
+            <!--Mayor Msg Start-->
+            <div class="city-tour gallery"> <strong>Meendum Manjappai</strong> <a href="https://www.youtube.com/watch?v=yHajO86ZF4U&t=3s" data-rel="prettyPhoto" title="City Tour"><img src="images/playicon.png" alt=""></a> <img src="images/logos/mm.jpg" alt=""> </div>
+            <!--Mayor Msg End--> 
+          </div>
+          <div class="col-md-8 col-sm-7">
+            <div class="Mayor-welcome">
+              <h5 id="heading">Welcome to TNPCB</h5>
+              <p>The Tamilnadu Prevention and Control of Water Pollution Board was constituted by the Government of Tamilnadu on twenty seventh day of February, Nineteen eighty two (27-2-1982) in pursuance of the Water (Prevention and Control of Pollution) Act, 1974 (Central Act 6 of 1974). The Board was later renamed as Tamilnadu Pollution Control Board (TNPCB) in the year 1983. It enforces the provisions of the Water (Prevention and Control of Pollution) Act, 1974, the Air (Prevention and Control of Pollution) Act, 1981, the Environment (Protection) Act, 1986.</p>
+              <!-- <h6>Edward Robert</h6>
+              <strong>Mayor of the City</strong> </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Mayor Msg with Video End--> 
+
+  </section>
+  <!--Departments & Information Desk End--> 
+  <!--Recent Events Start-->
+  <section class="wf100 p75 recent-events">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Recent Events</h3>
+          <div class="recent-event-block"> 
+            <!--Slider Big Slider Start-->
+            <div class="recent-event-slider">
+              <div class="event-big">
+                <div class="event-cap">
+                  <h6><a href="#">Integrated Environmental Monitoring Studio</a></h6>
+                  
+                  <p style="text-align: justify;"> Integrated Environmental Monitoring Studio (IEMS) Was Inaugurated by the Hon'ble Chief Minister of Tamil Nadu on 14.08.2024. </p>
+                </div>
+                <img src="images/lead-img/img1.jpg" alt=""> </div>
+              <div class="event-big">
+                <div class="event-cap">
+                  <h6><a  href="#">Integrated Environmental Monitoring Studio</a></h6>
+                  <!-- <ul>
+                    <li><i class="fas fa-image"></i> 83 Photos</li>
+                    <li><i class="fas fa-play-circle"></i> 16 Videos</li>
+                  </ul> -->
+                  <p style="text-align: justify;"> Integrated Environmental Monitoring Studio (IEMS) Was Inaugurated by the Hon'ble Chief Minister of Tamil Nadu on 14.08.2024.</p>
+                </div>
+                <img src="images/lead-img/img2.jpg" alt=""> </div>
+              <div class="event-big">
+                <div class="event-cap">
+                  <h6><a href="#">Eco alternative Conclave 2024</a></h6>
+                  
+                  <p style="text-align: justify;">Hon'ble minister for Finance, Environment and Climate Change released the revised and updated version of Eco Alternatives Directory-2024 in the presence of Principal Secretary, Environment, Climate Change and Forest Department, a comprehensive guide for businesses and consumers seeking sustainable options.</p>
+                </div>
+                <img src="images/lead-img/img3.jpg" alt=""> </div>
+              <div class="event-big">
+                <div class="event-cap">
+                  <h6><a href="#">International Coastal clean-up day at Marina Beach</a></h6>
+                  
+                  <p style="text-align: justify;">On September 21, 2024, the TNPCB, in partnership with the MoEF&CC, held a Beach Cleaning event at Marina Beach in Chennai. The event was inaugurated by the Chairperson of TNPCB, with the Member Secretary, Additional Director, Dept.</p>
+                </div>
+                <img src="images/lead-img/img4.jpg" alt=""> </div>
+            </div>
+            <!--Slider Big Slider End--> 
+            <!--Slider Big Slider Nav-->
+            <div class="recent-event-slider-nav">
+              <div><img src="images/lead-img/img1.jpg" alt=""></div>
+              <div><img src="images/lead-img/img2.jpg" alt=""></div>
+              <div><img src="images/lead-img/img3.jpg" alt=""></div>
+              <div><img src="images/lead-img/img4.jpg" alt=""></div>
+            </div>
+            <!--Slider Big Slider Nav--> 
+          </div>
+        </div>
+        <div class="col-md-8">
+          <h3 >Upcoming Schedules</h3>
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#Events" aria-controls="Events" role="tab" data-toggle="tab">Next Events</a></li>
+            <li role="presentation"><a href="#Tenders" aria-controls="Tenders" role="tab" data-toggle="tab">Tenders</a></li>
+            <li role="presentation"><a href="#Recruitment" aria-controls="Recruitment" role="tab" data-toggle="tab">Recruitment</a></li>
+            <li role="presentation"><a href="#Notification" aria-controls="Notification" role="tab" data-toggle="tab">Notification</a></li>
+            <li role="presentation"><a href="#Seniority-List" aria-controls="Seniority-List" role="tab" data-toggle="tab">Seniority List</a></li>
+            
+            
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="Events"> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">	MoEF & CC notification G.S.R.702(E) dated 12.11.2024 regarding List of White Category of Sectors ...<span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">	Ambient Air Quality & Noise Level Report in Chennai City During Deepavali-2024 .</a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">	Consent Fees Details .</a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">	TNPCB - EPR Booklet 2024 - Action Taken on Obligated Entities.</a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+            </div>
+            <div role="tabpanel" class="tab-pane" id="Tenders"> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">	Request for proposal for Supply, Installation & Commissioning, Operation and Maintenance of 8 No's of Real... <span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Tender for the procurement of 25 Continuous Ambient Air Quality Monitoring Station(CAAQMS) has beeen dropped... <span style="color: crimson;"> more</span>
+                  </a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Tender for the procurement of 25 Continuous Ambient Air Quality Monitoring Station(CAAQMS) has beeen dropped... <span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Tender for the procurement of 25 Continuous Ambient Air Quality Monitoring Station(CAAQMS) has beeen dropped... <span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+            </div>
+            <div role="tabpanel" class="tab-pane" id="Recruitment"> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Selection to the post of Director(Labs) Tamil Nadu Pollution Control Board... <span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Application form for the Post of Director(Labs) Tamil Nadu Pollution Control Board (TNPCB) with Declaration<span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Application form for the Post of Director(Labs) Tamil Nadu Pollution Control Board (TNPCB) with Declaration <span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Application form for the Post of Director(Labs) Tamil Nadu Pollution Control Board (TNPCB) with Declaration<span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+            </div>
+            <div role="tabpanel" class="tab-pane" id="Notification"> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Retrofitting of Emission Control Devices in DG Sets with Capacity of 61 KW - less than 800 KW &<span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">MoEF & CC notification G.S.R.724(E) dated 04.10.2021 regarding Regulation on Appropriate<span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">MoEF & CC notification G.S.R.724(E) dated 04.10.2021 regarding Regulation on Appropriate<span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">MoEF & CC notification G.S.R.724(E) dated 04.10.2021 regarding Regulation on Appropriate<span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+            </div>
+            <div role="tabpanel" class="tab-pane" id="Seniority-List"> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Seniority List of Deputy Managers.</a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Seniority List of Assistants during the year 2016-2023.</a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Revised Seniority List of General Assistants</a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+              <!--Event List Start-->
+              <ul class="event-list">
+                <li> <strong class="edate">30 Jan, 2019</strong>  </li>
+                <li><img src="images/lead-img/person2-icon.jpg" alt=""></li>
+                <li class="el-title">
+                  <p class="p-tc"><img style="width: 40px;" src="images/gif/news.gif" alt=""><a href="#">Revised Seniority List for the post of Assistant Engineer<span style="color: crimson;"> more</span></a></p>
+                  <p><i class="fas fa-map-marker-alt"></i>TNPCB</p>
+                </li>
+                <li> <a href="#" class="joinnow">Click here</a> </li>
+              </ul>
+              <!--Event List End--> 
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!--City News Start-->
+    <section class="wf100 city-news p75">
+      <div class="container">
+        <div class="title-style-3">
+          <h3>Be Updated with City News</h3>
+          <p>Read the News Updates and Articles about Government </p>
+        </div>
+        <div class="row"> 
+          <!--News Box Start-->
+          <div class="col-md-3 col-sm-6">
+            <div class="news-box">
+              <div class="new-thumb"> <span class="cat c1">Hon'ble Minister</span> <img src="images/lead-img/person-icon.jpg" alt=""> </div>
+              <div class="new-txt">
+                
+                <p style="font-size: large;"><a href="#"><b>Thiru.Thangam Thennarasu,</b></a></p>
+                <p style="text-align: justify;"> Hon'ble Minister for Finance, Pensions and Pensionary benefits and Archaeology, Environment, Pollution Control Board and Climate Change </p>
+              </div>
+              
+            </div>
+          </div>
+          <!--News Box End--> 
+          <!--News Box Start-->
+          <div class="col-md-3 col-sm-6">
+            <div class="news-box">
+              <div class="new-thumb"> <span class="cat c2">Principal Secretary</span> <img src="images/lead-img/person-icon.jpg" alt=""> </div>
+              <div class="new-txt">
+                
+                <p style="font-size: large;"><a href="#"><b>Dr.P.Senthil Kumar I.A.S.,</b></a></p>
+                <p style="text-align: justify;"> Principal Secretary to Government Environment, Climate Change & Forests Department</p>
+              </div>
+              
+            </div>
+          </div>
+          <!--News Box End--> 
+          <!--News Box Start-->
+          <div class="col-md-3 col-sm-6">
+            <div class="news-box">
+              <div class="new-thumb"> <span class="cat c3"> Chairperson</span> <img src="images/lead-img/person-icon.jpg" alt=""> </div>
+              <div class="new-txt">
+                
+                <p style="font-size: large;"><a href="#"><b>Dr.Jayanthi.M, I.F.S.,</b></a></p>
+                <p style="text-align: justify;">Chairperson <br> Tamilnadu Pollution Control Board</p>
+              </div>
+              
+            </div>
+          </div>
+          <!--News Box End--> 
+          <!--News Box Start-->
+          <div class="col-md-3 col-sm-6">
+            <div class="news-box">
+              <div class="new-thumb"> <span class="cat c4"> Member Secretary</span> <img src="images/lead-img/person-icon.jpg" alt=""> </div>
+              <div class="new-txt">
+                
+                <p style="font-size: large;"><a href="#"><b>Thiru.R.Kannan M.Tech</b></a></p>
+                <p style="text-align: justify;">
+                  Member Secretary <br>
+                  Tamilnadu Pollution Control Board</p>
+              </div>
+              
+            </div>
+          </div>
+   
+          <!--News Box End--> 
+        </div>
+      </div>
+    </section>
+    <!--City News End--> 
+    <!--Departments & Information Desk Start-->
+    <section class="wf100 p75-50  depart-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- <div class="title-style-3">
+                <h3 style="color: #FFFFFF;">Departments & Information Desk</h3>
+                <p style="color: #FFFFFF;">Read the News Updates and Articles about Government</p>
+            </div> -->
+            <div class="row"> 
+                <!--Icon Box Start-->
+                <div class="col-md-3 col-sm-3">
+                    <div class="deprt-icon-box">
+                        <div class="icon-content-wrapper">
+                            <img src="images/deprticon1.png" alt="History & Establishment" class="icon-img">
+                            <div class="content">
+                                <h6><a href="#">OCMMS</a></h6>
+                                <a class="rm btn" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Icon Box End-->
+    
+                <!--Icon Box Start-->
+                <div class="col-md-3 col-sm-3">
+                    <div class="deprt-icon-box">
+                        <div class="icon-content-wrapper">
+                            <img src="images/deprticon2.png" alt="Government Economy" class="icon-img">
+                            <div class="content">
+                                <h6><a href="#">OLGPRS</a></h6>
+                                <a class="rm btn" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Icon Box End-->
+    
+                <!--Icon Box Start-->
+                <div class="col-md-3 col-sm-3">
+                    <div class="deprt-icon-box">
+                        <div class="icon-content-wrapper">
+                            <img src="images/deprticon3.png" alt="Constitution & Government Law" class="icon-img">
+                            <div class="content">
+                                <h6><a href="#">OLMMS</a></h6>
+                                <a class="rm btn" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Icon Box End-->
+    
+                <!--Icon Box Start-->
+                <div class="col-md-3 col-sm-3">
+                    <div class="deprt-icon-box">
+                        <div class="icon-content-wrapper">
+                            <img src="images/deprticon4.png" alt="International & Current Affairs" class="icon-img">
+                            <div class="content">
+                                <h6><a href="#">Open House Session</a></h6>
+                                <a class="rm btn" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Icon Box End-->
+    
+                <!--Icon Box Start-->
+                <div class="col-md-3 col-sm-3">
+                    <div class="deprt-icon-box">
+                        <div class="icon-content-wrapper">
+                            <img src="images/deprticon5.png" alt="Business & Administrations" class="icon-img">
+                            <div class="content">
+                                <h6><a href="#">NGT CASE</a></h6>
+                                <a class="rm btn" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Icon Box End-->
+    
+                <!--Icon Box Start-->
+                <div class="col-md-3 col-sm-3">
+                    <div class="deprt-icon-box">
+                        <div class="icon-content-wrapper">
+                            <img src="images/deprticon6.png" alt="Budget & Govt. Policies" class="icon-img">
+                            <div class="content">
+                                <h6><a href="#">AQI CAAQMS</a></h6>
+                                <a class="rm btn" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Icon Box End-->
+                <div class="col-md-3 col-sm-3">
+                  <div class="deprt-icon-box">
+                      <div class="icon-content-wrapper">
+                          <img src="images/deprticon1.png" alt="History & Establishment" class="icon-img">
+                          <div class="content">
+                              <h6><a href="#">TNPCB & YOU</a></h6>
+                              <a class="rm btn" href="#">Read More</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!--Icon Box End-->
+  
+              <!--Icon Box Start-->
+              <div class="col-md-3 col-sm-3">
+                  <div class="deprt-icon-box">
+                      <div class="icon-content-wrapper">
+                          <img src="images/deprticon2.png" alt="Government Economy" class="icon-img">
+                          <div class="content">
+                              <h6><a href="#">Meendum Manjappai</a></h6>
+                              <a class="rm btn" href="#">Read More</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+          
+        </div>
+      </div>
+    </section>
+    <!--Recent Events End--> 
+    <!-- Explore Community Start-->
+    <section style="background-color: #FFFFFF;" class="wf100 p80 explore-community">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>News Letters</h3>
+            <ul class="community-links-style-two">
+              <li> <a href="#">News Letter July-2024 </a> </li>
+              <li> <a href="#">  News Letter March-2024 </a> </li>
+              <li> <a href="#"> News Letter October-2023 </a> </li>
+              <li> <a href="#"> Public Safety </a> </li>
+              <li> <a href="#"> Health and Welfare </a> </li>
+              <li> <a href="#"> Transportation </a> </li>
+              <li> <a href="#"> Entertainment </a> </li>
+              <li> <a href="#"> Sports </a> </li>
+              <li> <a href="#"> City Council </a> </li>
+              <li> <a href="#"> Important Numbers </a> </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3>Video Gallery</h3>
+            <!--Team Slider Start-->
+            <div id="h3team-slider" class="owl-carousel owl-theme"> 
+              <!--Team Box Start-->
+              <div class="item">
+                <div class="city-tour gallery">
+                    <strong>Meendum Manjappai</strong>
+                    <a href="https://www.youtube.com/watch?v=yHajO86ZF4U&t=3s" 
+                       data-fancybox 
+                       data-caption="Meendum Manjappai" 
+                       title="City Tour">
+                        <img src="images/playicon.png" alt="">
+                    </a>
+                    <img src="images/videogal/vidgal-1.jpg" alt="">
+                </div>
+            </div>
+              <!--Team Box Start--> 
+              <!--Team Box Start-->
+              <div class="item">
+                <div class="city-tour gallery">
+                    <strong>Meendum Manjappai</strong>
+                    <a href="https://www.youtube.com/watch?v=yHajO86ZF4U&t=3s" 
+                       data-fancybox 
+                       data-caption="Meendum Manjappai" 
+                       title="City Tour">
+                        <img src="images/playicon.png" alt="">
+                    </a>
+                   
+                    <img src="images/logos/mm2.jpg" alt="">
+                </div>
+            </div>
+            
+              <!--Team Box Start--> 
+              <!--Team Box Start-->
+              <div class="item">
+                <div class="city-tour gallery">
+                    <strong>Meendum Manjappai</strong>
+                    <a href="https://www.youtube.com/watch?v=yHajO86ZF4U&t=3s" 
+                       data-fancybox 
+                       data-caption="Meendum Manjappai" 
+                       title="City Tour">
+                        <img src="images/playicon.png" alt="">
+                    </a>
+                    <img src="images/logos/mm2.jpg" alt="">
+                </div>
+            </div>
+              <!--Team Box Start--> 
+              <!--Team Box Start-->
+              <div class="item">
+                <div class="city-tour gallery">
+                    <strong>Meendum Manjappai</strong>
+                    <a href="https://www.youtube.com/watch?v=yHajO86ZF4U&t=3s" 
+                       data-fancybox 
+                       data-caption="Meendum Manjappai" 
+                       title="City Tour">
+                        <img src="images/playicon.png" alt="">
+                    </a>
+                    <img src="images/logos/mm2.jpg" alt="">
+                </div>
+            </div>
+              <!--Team Box Start--> 
+            </div>
+            <!--Team Slider End--> 
+          </div>
+        </div>
+      </div>
+    </section>
+   <!--Cityscapes & Highlights Start-->
+   <section class="wf100 p80 city-highlights ">
+    <div class="container">
+      <div class="title-style-1 text-center white-text">
+        <h2>Photo Gallery</h2>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div id="highlight-slider" class="owl-carousel owl-theme"> 
+        <!--Item Start-->
+        <div class="item">
+          <div class="ch-box">
+            <div class="ch-thumb"> <a href="#"><i class="fas fa-link"></i></a> <img src="images/sub-img/EnvDayVlr2024.jpg" alt=""> </div>
+            <div class="ch-txt">
+              <h5><a href="#">International Plastic Bag Free Day 2024</a></h5>
+             
+            </div>
+          </div>
+        </div>
+        <!--Item End--> 
+        <!--Item Start-->
+        <div class="item">
+          <div class="ch-box">
+            <div class="ch-thumb"> <a href="#"><i class="fas fa-link"></i></a> <img src="images/sub-img/InagurationManjappai.jpg" alt=""> </div>
+            <div class="ch-txt">
+              <h5><a href="#">Environmental Day-2024</a></h5>
+              
+       
+            </div>
+          </div>
+        </div>
+        <!--Item End--> 
+        <!--Item Start-->
+        <div class="item">
+          <div class="ch-box">
+            <div class="ch-thumb"> <a href="#"><i class="fas fa-link"></i></a> <img src="images/sub-img/IntPlasBag_Amb.jpg" alt=""> </div>
+            <div class="ch-txt">
+              <h5><a href="#">Meendum Manjappai Kiosk</a></h5>
+            
+     
+            </div>
+          </div>
+        </div>
+        <!--Item End--> 
+        <!--Item Start-->
+        <div class="item">
+          <div class="ch-box">
+            <div class="ch-thumb"> <a href="#"><i class="fas fa-link"></i></a> <img src="images/sub-img/ManjappaiKiosk11223-1.jpg" alt=""> </div>
+            <div class="ch-txt">
+              <h5><a href="#">Inaguration Manjappai </a></h5>
+              
+
+            </div>
+          </div>
+        </div>
+        <!--Item End--> 
+        <!--Item Start-->
+        <div class="item">
+          <div class="ch-box">
+            <div class="ch-thumb"> <a href="#"><i class="fas fa-link"></i></a> <img src="images/sub-img/EnvDayVlr2024.jpg" alt=""> </div>
+            <div class="ch-txt">
+              <h5><a href="#">Food & Restaurants</a></h5>
+
+            </div>
+          </div>
+        </div>
+        <!--Item End--> 
+        <!--Item Start-->
+        
+        <!--Item End--> 
+      </div>
+    </div>
+  </section>
+  <!--Cityscapes & Highlights End--> 
+  <!--Footer Start-->
+  <footer class="home3 main-footer wf100">
+    <div class="container">
+      <div class="row"> 
+        <!--Footer Widget Start-->
+        <div class="col-md-3 col-sm-6">
+          <div class="textwidget"> 
+            <address>
+            <ul>
+              <li><img src="images/logos/TNPCB-80.jpg" alt=""></li>
+             
+              <li> <i class="fas fa-university"></i> <strong>Corporate Office :</strong> Tamil Nadu Pollution Control Board
+                76, Mount Salai, Guindy, Chennai - 600 032</li>
+              <li> <i class="fas fa-envelope"></i> <strong>Email:</strong> Email : grievance@tnpcb.gov.in</li>
+              <li> <i class="fas fa-phone"></i> <strong>Call us:</strong>Phone : 044-22353134-139 <br>
+                Fax : 044-22353068</li>
+            </ul>
+            </address>
+          </div>
+        </div>
+        <!--Footer Widget End--> 
+        <!--Footer Widget Start-->
+        <div class="col-md-3 col-sm-6">
+          <div class="footer-widget">
+            <h6>Info Links</h6>
+            <ul>
+              <li><a href="#"><i class="fas fa-star"></i> Help Desk</a></li>
+              <li><a href="#"><i class="fas fa-star"></i>Site Map</a></li>
+              <li><a href="#"><i class="fas fa-star"></i>Tenders</a></li>
+              <li><a href="#"><i class="fas fa-star"></i>Gallery</a></li>
+              <li><a href="#"><i class="fas fa-star"></i> Videos</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Footer Widget End--> 
+        <!--Footer Widget Start-->
+        <div class="col-md-2 col-sm-6">
+          <div class="footer-widget">
+            <ul>
+              <li><a href="#"><i class="fas fa-star"></i>About Us</a></li>
+              <li><a href="#"><i class="fas fa-star"></i>Awards</a></li>
+              <li><a href="#"><i class="fas fa-star"></i>Feedback</a></li>
+              <li><a href="#"><i class="fas fa-star"></i>Contact Us</a></li>
+            
+             
+            </ul>
+          </div>
+        </div>
+        <!--Footer Widget End--> 
+        <!--Footer Widget Start-->
+        <div class="col-md-4 col-sm-6">
+          <h4><i class="fa-solid fa-location-dot"></i>Location</h4>
+          <div class="i-map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1112.0826139986332!2d80.21835257223483!3d13.011839209098264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52676d34cb0ec3%3A0xd0c6d9d643ee58a7!2sTamil%20Nadu%20Pollution%20Control%20Board!5e1!3m2!1sen!2sin!4v1732085247071!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+         
+        </div>
+        <!--Footer Widget End--> 
+      </div>
+    </div>
+  </footer>
+  <!--Footer Start--> 
+  <!--Footer Start-->
+  <footer class="home3 footer wf100">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-7">
+          <p class="copyr">Rights Reserved © 2024, By: <a href="index.html">TNPCB</a></p>
+        </div>
+        <div class="col-md-5 col-sm-5">
+          <ul class="footer-social">
+            <li><a href="#" class="fb"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="tw"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="insta"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="linken"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#" class="yt"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Footer End--> 
+</div>
+<!--Wrapper End-->
+
+<nav id="sidebar">
+  <div id="dismiss"> <i class="fas fa-arrow-right"></i> </div>
+  <div class="sidebar-header"> <img src="images/footer-logo2.png" alt=""> </div>
+  <ul class="list-unstyled components">
+    <li class="active"> <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+      <ul class="collapse list-unstyled" id="homeSubmenu">
+        <li><a href="index.html">Default Home Page</a></li>
+        <li><a href="home-two.html">Home Page Two</a></li>
+        <li><a href="home-three.html">Home Page Three</a></li>
+      </ul>
+    </li>
+    <li> <a href="aboutus.html">About Us</a> </li>
+    <li> <a href="departments.html">Departments</a> </li>
+    <li> <a href="news-full.html">News</a> </li>
+    <li> <a href="event.html">Events</a> </li>
+    <li> <a href="explore-city.html">Explore City</a> </li>
+    <li> <a href="services.html">Services</a> </li>
+    <li> <a href="contact.html">Contact</a> </li>
+  </ul>
+</nav>
+<div class="overlay"></div>
+
+<!-- JS --> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/jquery.prettyPhoto.js"></script> 
+<script src="js/slick.min.js"></script> 
+<script src="js/custom.js"></script> 
+<!--Rev Slider Start--> 
+<script type="text/javascript" src="js/rev-slider/js/jquery.themepunch.tools.min.js"></script> 
+<script type="text/javascript" src="js/rev-slider/js/jquery.themepunch.revolution.min.js"></script> 
+<script type="text/javascript" src="js/rev-slider.js"></script> 
+<script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.actions.min.js"></script> 
+<script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.carousel.min.js"></script> 
+<script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.kenburn.min.js"></script> 
+<script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.layeranimation.min.js"></script> 
+<script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.migration.min.js"></script> 
+<script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.navigation.min.js"></script> 
+<script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.parallax.min.js"></script> 
+<script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script> 
+<script type="text/javascript" src="js/rev-slider/js/extensions/revolution.extension.video.min.js"></script>
+<script>
+  // change stylesheet using JavaScript
+  function changeSheet(sheet) {
+    var style = document.getElementById("style");
+    style.setAttribute("href", sheet);
+  }
+</script>
+<script>
+  function updateTime() {
+    const now = new Date();
+    const day = String(now.getDate()).padStart(2, "0");
+    const month = String(now.getMonth() + 1).padStart(2, "0"); // Months are 0-based
+    const year = now.getFullYear();
+    const hours = String(now.getHours()).padStart(2, "0");
+    const minutes = String(now.getMinutes()).padStart(2, "0");
+    const seconds = String(now.getSeconds()).padStart(2, "0");
+    const timeString = `Today: ${day}-${month}-${year} ${hours}:${minutes}:${seconds} PM`;
+
+    document.getElementById("current-time").textContent = timeString;
+  }
+
+  // Update the time immediately
+  updateTime();
+  // Update the time every second
+  setInterval(updateTime, 1000);
+</script>
+
+<script>
+  document
+    .getElementById("tamilButton")
+    .addEventListener("click", function () {
+      document.getElementById("tamilButton").style.display = "none";
+      document.getElementById("englishButton").style.display = "block";
+      document.getElementById("heading").textContent = "வரவேற்கிறோம்";
+      document.getElementById("paragraph").textContent =
+        "இது ஒரு மாதிரி உரை.";
+    });
+</script>
+<script>
+  document
+    .getElementById("englishButton")
+    .addEventListener("click", function () {
+      document.getElementById("tamilButton").style.display = "block";
+      document.getElementById("englishButton").style.display = "none";
+      document.getElementById("heading").textContent = "Welcome to TNPCB";
+      document.getElementById("paragraph").textContent = "Paragraph";
+    });
+</script>
+</body>
+</html>

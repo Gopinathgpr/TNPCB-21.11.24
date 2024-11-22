@@ -85,11 +85,11 @@ Sidebar heading:	font:28px/28px 'Poppins', serif;
 html body {
 	font-size: 14px;
 	font-family: 'Lato', sans-serif;
-	color: #777777;
+	color: #000000;
 }
 p {
 	font-family: 'Lato', sans-serif;
-	color: #777;
+	color: #000000;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
 	font-family: 'Montserrat', sans-serif;
@@ -2450,13 +2450,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 /*** + === + Home 2 Footer Start + === + ***/
 .main-footer {
-	background-color: #fff;
+	background-color: #ffffff;
 	background-size: cover;
 	padding: 20px 0;
 }
 .home3.main-footer {
-	background-color: #fff;
-	background-size: cover;
+	/* background-color:#bbceda; */
+	background: linear-gradient(to bottom, rgba(1, 0, 3, 0.4), rgba(1, 0, 3, 0.6)), url(../images/bg/bgbanner.jpg) no-repeat bottom;
+
+	background-size: cover; 
 }
 .home3.footer {
 	background:#007bff;
@@ -2468,11 +2470,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	color: #ffffff;
 }
 .footer-widget{
-	padding-top: 130px;
+	
 }
 .footer-widget h6 {
 	font-size: 22px;
-	color: #000000;
+	color: #ffffff;
 	margin: 0;
 	font-weight: 600;
 	margin-bottom: 16px;
@@ -2486,7 +2488,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	line-height: 32px;
 }
 .footer-widget ul li a {
-	color: #000000;
+	color: #ffffff;
 	font-size: 16px;
 }
 .footer-widget ul li a i {
@@ -2502,7 +2504,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	list-style: none;
 }
 .textwidget address ul li {
-	color: #000000;
+	color: #ffffff;
 	margin: 0 0 20px;
 	padding: 0 0 0 26px;
 	position: relative;
@@ -3421,14 +3423,15 @@ ul.rep-comments {
 	position: relative;
 }
 .depart-info .deprt-icon-box img {
-	margin: 0 0 20px;
-	width: 85px;
-	height: 85px;
+	
+	width: 45px;
+	height: 45px;
 }
 .deprt-icon-box h6 {
 	line-height: 22px;
 	margin: 0 0 12px;
 	font-weight: 600;
+	font-size: 14px;
 }
 .deprt-icon-box h6 a {
 	color: #222;

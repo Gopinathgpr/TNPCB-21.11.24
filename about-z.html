@@ -39,47 +39,192 @@
 <div class="wrapper"> 
   <!--Header Start-->
   <header class="wf100 header-two" id="navHeight">
-    <div id="closetopbar" class="topbar wf100">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-7">
-           
-          </div>
-          <div class="col-md-3 col-sm-7">
-            <div class="search-container">
-              <input type="text" class="search-bar" placeholder="Search...">
-              <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
-          </div>
-          
-          
-          
-          </div>
+          <!-- toolbar menu starting -->
 
-          <div class="col-md-3 col-sm-5 ">
-            <ul class="social-icons">
-                <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            </ul>
-        </div>
-        
-        
-        </div>
-      </div>
-    </div>
+          <div id="tl-topbar" class="tl-topbar d-xl-flex d-none">
+            <!-- Main Navigation and Controls -->
+            <div
+              class=""
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div class="tl-topbar-menu">
+                <ul
+                  class="unstyled list-inline"
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                  "
+                >
+                  <!-- Font Size Controls -->
+                  <li>
+                    Font Size:
+                    <span
+                      data-size="13px"
+                      class="change-fs mm-fontsize"
+                      style="font-size: 12px; margin-left: 8px"
+                    >
+                      <a
+                        href="#"
+                        id="btn-decrease"
+                        style="font-size: 12px"
+                        aria-label="Decrease font size"
+                        >A</a
+                      >
+                    </span>
+                    <span
+                      data-size="16px"
+                      class="change-fs mm-fontsize"
+                      style="font-size: 14px; margin: 0 8px"
+                    >
+                      <a
+                        href="#"
+                        id="btn-orig"
+                        style="font-size: 14px"
+                        aria-label="Original font size"
+                        >A</a
+                      >
+                    </span>
+                    <span
+                      data-size="18px"
+                      class="change-fs mm-fontsize"
+                      style="font-size: 18px"
+                    >
+                      <a
+                        href="#"
+                        id="btn-increase"
+                        style="font-size: 16px"
+                        aria-label="Increase font size"
+                        >A</a
+                      >
+                    </span>
+                  </li>
+    
+                  <!-- Date and Time -->
+                  <li id="current-time"></li>
+    
+                  <!-- Language Option -->
+
+                  <li class="search-sec" id="tamilButton">
+                    <a href="javascript:;">தமிழ் வடிவம்</a>
+                  </li>
+                  <li class="search-sec" id="englishButton" style="display: none">
+                    <a href="javascript:;">English</a>
+                  </li>
+    
+                  <!-- Color Pickers -->
+                  <li>
+                    <a
+                      class="blue clr-pick clr-pick-1"
+                      id="blue"
+                      aria-label="Blue theme"
+                      href="javascript:;"
+                      onclick="changeSheet('assets/css/style4.css')"
+                    ></a>
+                    <a
+                      class="green clr-pick clr-pick-2"
+                      id="green"
+                      aria-label="Green theme"
+                      href="javascript:;"
+                      onclick="changeSheet('assets/css/style3.css')"
+                    ></a>
+                    <a
+                      class="yellow clr-pick clr-pick-3"
+                      id="yellow"
+                      aria-label="Yellow theme"
+                      href="javascript:;"
+                      onclick="changeSheet('assets/css/style2.css')"
+                    ></a>
+                    <a
+                      class="red clr-pick clr-pick-4"
+                      id="red"
+                      aria-label="Red theme"
+                      href="javascript:;"
+                      onclick="changeSheet('assets/css/style1.css')"
+                    ></a>
+                    <a
+                      class="blueviolet clr-pick clr-pick-5"
+                      id="blueviolet"
+                      aria-label="Blueviolet theme"
+                      href="javascript:;"
+                      onclick="changeSheet('assets/css/style5.css')"
+                    ></a>
+                  </li>
+    
+                  <!-- Screen Reader Access -->
+                  <li>
+                    <a
+                      href="https://tnpcb.gov.in/screenreader.php"
+                      target="_blank"
+                      aria-label="Screen reader access"
+                      >Screen Reader Access</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="searchbar">
+              <input type="text" placeholder="Search...">
+              <div class="search"></div>
+            </div>
+            <div class="tl-topbar-social-links" style="display: flex">
+              <ul class="unstyled list-inline" style="display: flex">
+                <li>
+                  <a
+                    href="https://www.facebook.com/Tamil-Nadu-Pollution-Control-Board-101654929163029"
+                    target="_blank"
+                    aria-label="Facebook"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/tnpcbofficial/"
+                    target="_blank"
+                    aria-label="Instagram"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/Tnpcbofficial"
+                    target="_blank"
+                    aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" aria-label="Vimeo"
+                    ><i class="fab fa-vimeo"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+    
+          <!-- toolbar menu ending -->
+
     <div class="nav1">
     <div  class=" h3-logo-row wf100">
       <div class="container cont">
         <div class="row">
-          <div class="col-md-1 col-sm-2">
+          <div class="col-md-2 col-sm-2 ">
             <div class="h3-logo"> <a href="index.html"><img src="images/logos/TNPCB-80.jpg" alt=""></a></div>
           </div>
-          <div class="col-sm-2 col-lg-7 col-md-7 ml-auto  h-line">
+          <div class="col-sm-6  col-md-6 ml-auto  h-line">
             <h3 style="color: #0f64b9;">
-              <span class="headertitle" >TAMILNADU POLLUTION CONTROL BOARD</span>
               <span class="headertitle2" >தமிழ்நாடு மாசு கட்டுப்பாடு வாரியம்</span>
+              <span class="headertitle" >TAMILNADU POLLUTION CONTROL BOARD</span>
+             
             </h3>
           </div>
           <button class="col-sm-2 col-md-2 btn-v d-flex flex-column">
@@ -88,7 +233,7 @@
            
           </button>
           
-          <div class="col-md-1 col-sm-2">
+          <div class="col-md-2 col-sm-2">
             <div class="logo-end"> <a href="index.html"><img src="images/logos/tamilnadu.png" alt=""></a></div>
           </div>
           
@@ -103,14 +248,14 @@
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li> <a href="index.html">Home</a>
+              <li class="nav-item"> <a href="index.html"><i class="fas fa-home"></i></a>
                 
               </li>
             
-              <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="dropdown"> About Us <span class="nav-indicator"> <i class="caret"></i> </span> </a>
+              <li class="nav-item dropdown"> <a class="nav-link" href="" data-toggle="dropdown"> About Us <span class="nav-indicator"> <i class="caret"></i> </span> </a>
                 <ul class="dropdown-menu" role="menu">
 
-                  <li class="nav-item"><a href="">About TNPCB</a></li>
+                  <li class="nav-item"><a href="/about-z.html">About TNPCB</a></li>
 
                   <li class="nav-item"><a href="">Board Members</a></li>
 
@@ -130,106 +275,129 @@
 
               </li>
              
-              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Projects <span class="nav-indicator"><i class="caret"></i></span> </a> 
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Environmental Standards <span class="nav-indicator"><i class="caret"></i></span> </a> 
 
                 <ul class="dropdown-menu" role="menu">
 
-                  <li class="nav-item"><a href="water-quality.php">Water Quality </a></li>
+                  <li class="nav-item"><a href="#">Pollution control law series</a></li>
 
-                  <li class="nav-item"><a href="air-quality.php">Air Quality </a></li>
+                  <li class="nav-item"><a href="#">MoEF&CC Guidelines </a></li>
 
-                  <li class="nav-item"><a href="careair-centre.php">Care Air Centre </a></li>
+                  <li class="nav-item"><a href="#">Industrial standards</a></li>
 
-                  <li class="nav-item"><a href="action-plan-form.php">CEPI Action Plan </a></li>
+                  <li class="nav-item"><a href="#">Air Environment </a></li>
 
-                  <li class="nav-item"><a href="polluted-riverstretches.php">Polluted River Stretches </a></li>
+                  <li class="nav-item"><a href="#">Water Environment</a></li>
 
-				          <li class="nav-item"><a href="success-stories.php">Success Stories</a></li>
+				          <li class="nav-item"><a href="#">Noise Environment </a></li>
                 </ul>
 
               </li>
               
-              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Meetings <span class="nav-indicator"><i class="caret"></i></span> </a>
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Enironmental Legislations <span class="nav-indicator"><i class="caret"></i></span> </a>
 
                 <ul class="dropdown-menu" role="menu">
 
-                  <li class="nav-item"><a href="projectstatic.php">Public Hearing</a></li>
+                  <li class="nav-item"><a href="#">Water Act</a></li>
 
-                  <li class="nav-item"><a href="dlccc1.php">DLCCC </a></li>
+                  <li class="nav-item"><a href="#">Air Act  </a></li>
 
-                  <li class="nav-item"><a href="zlccc1.php">ZLCCC </a></li>
+                  <li class="nav-item"><a href="#">Environmental Protection Act </a></li>
 
-                  <li class="nav-item"><a href="ccc.php">CCC</a></li>
+                  <li class="nav-item"><a href="#">EIA Notification</a></li>
 
-                  <li class="nav-item"><a href="tsc.php">TSC</a></li>
+                  <li class="nav-item"><a href="#">CRZ Notification</a></li>
+                  <li class="nav-item"><a href="#">Board Proceedings</a></li>
+                  <li class="nav-item"><a href="#">Circular</a></li>
+                  <li class="nav-item"><a href="#">Government Orders </a></li>
+                  <li class="nav-item"><a href="#">Compendium of Orders</a></li>
                 </ul>
 
               </li>
-              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Information <span class="nav-indicator"> <i class="caret"></i> </span> </a>
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Information & Publications<span class="nav-indicator"> <i class="caret"></i> </span> </a>
 
                 <ul class="dropdown-menu" role="menu">
 
-                  <li class="nav-item"><a href="library.php">Library </a></li>
-
-               
-
-                  <li class="nav-item"><a href="compendium.php">Compendium </a></li>
-
-                  <li class="nav-item"><a href="appellate-authority.php">Appellate &amp; NGT</a></li>
-
-                  <li class="nav-item"><a href="environmental-awareness.php"> Environmental Awareness </a></li>
-
-                  <li class="nav-item"><a href="board-initiatives.php"> Board Initiatives </a></li>
-
-                  <li class="nav-item"><a href="cetp.php"> CETP </a></li>
-
-                  <li class="nav-item"><a href="eti.php"> ETI </a></li>
-				          <li class="nav-item"><a href="closurerevo.php"> Closure &amp; Revocation </a></li>
-
-				           <li class="nav-item"><a href="https://tnpcb.gov.in/Appilcation-form.php"> Application for Industry </a></li>
-				           <li class="nav-item"><a href="https://tnpcb.gov.in/board-staff-info.php"> Application for Staff </a></li>
+                  <li class="nav-item"><a href="#">TNPCB and You</a></li>
+                  <li class="nav-item"><a href="#">Annual Reports</a></li>
+                  <li class="nav-item"><a href="#">CETP</a></li>
+                  <li class="nav-item"><a href="#">17 category Industries</a></li>
+                  <li class="nav-item"><a href="#">Closure details</a></li>
+                  <li class="nav-item"><a href="#">Pet Coke</a></li>
 				        </ul>
 				
 
               </li>
 
 
-              <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="dropdown"> Real Time Monitoring <span class="nav-indicator"> <i class="caret"></i> </span> </a>
+              <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="dropdown">Consent Management<span class="nav-indicator"> <i class="caret"></i> </span> </a>
 
                 <ul class="dropdown-menu" role="menu">
 
-                  <li class="nav-item"><a target="new" href="https://tnpcb.gov.in/glens/#/publicPortal/categoryList">Air/Water quality Watch </a></li>
+                  <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="dropdown">Apply for consent<span class="nav-indicator"> <i   class="caret"></i> </span> </a>
+                    <ul class="subdropdown-menu" role="menu">
+                      <li class="subnav-item"><a href="#">OCMMS</a>  
+                    </ul>
+                  </li>
+
+                  <li class="nav-item"><a href="#">Fee details</a></li>
+                  <li class="nav-item"><a href="#">Applications for industry</a></li>
+                  <li class="nav-item"><a href="#">Power delegation</a></li>
+                  <li class="nav-item"><a href="#">DLCC</a></li>
+                  <li class="nav-item"><a href="#">ZLCC</a></li>
+                  <li class="nav-item"><a href="#">CCC</a></li>
+                  <li class="nav-item"><a href="#">TSC</a></li>
                   
-                  <li class="nav-item"><a target="new" href="aqi_caaqms.php">AQI of CAAQMS</a></li>
                 </ul>
 			       </li>
          
-              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Online Logins <span class="nav-indicator"><i class="caret"></i></span> </a>
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Waste Management<span class="nav-indicator"><i class="caret"></i></span> </a>
 
                 <ul class="dropdown-menu dropdown-menu-rt" role="menu" style="width:auto;">
 
-                  <li class="nav-item"><a href="https://tnpcb.gov.in/payroll/login.php" target="_blank">TNPCB Employee Login</a></li>
-
-                  <li class="nav-item"><a href="https://ocmms.tn.gov.in/OCMMS/" target="_blank">Online Consent Management &amp; Monitoring System(OCMMS)</a></li>
-
-                  <li class="nav-item"><a href="./pcbolgprs/" target="_blank">Online Grievance Petition Redressal System(OLGPRS)</a></li>
-
-                  
-
-                 <li class="nav-item"><a href="https://tnpcb.gov.in/olmms#/Home" target="_blank">Online Legal cases Management &amp; Monitoring System(OLMMS)</a></li>
-				 
-				         <li class="nav-item"><a href="https://tnpcb.gov.in/olmms#/ngt" target="_blank">Online NGT Case Module</a></li>
-
-                  <li class="nav-item"><a href="https://tnpcb.gov.in/bmwms/" target="_blank">Online Bio-medical Waste Management System (OBMWMS)</a></li>
-
-                  <li class="nav-item"><a href="https://tnpcb.gov.in/MIS/" target="_blank">Management Information Systems(MIS)</a></li>
+                  <li class="nav-item"><a href="#">Solid Waste Management</a></li>
+                  <li class="nav-item"><a href="#">Hazardous Waste Management</a></li>
+                  <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="dropdown">Plastic Waste Management<span class="nav-indicator"> <i   class="caret"></i> </span> </a>
+                    <ul class="subdropdown-menu" role="menu">
+                      <li class="subnav-item"><a href="#">Meendum Manjappai</a>  
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown"> <a class="nav-link" href="#" data-toggle="dropdown">Biomedical Waste Management<span class="nav-indicator"> <i   class="caret"></i> </span> </a>
+                    <ul class="subdropdown-menu" role="menu">
+                      <li class="subnav-item"><a href="#">OBMWMS</a>  
+                    </ul>
+                  </li>
+                  <li class="nav-item"><a href="#">Construction and Demolition Waste</a></li>
+                  <li class="nav-item"><a href="#">E-waste Management</a></li>
+                  <li class="nav-item"><a href="#">Battery Waste Management</a></li>
                 </ul>
 			        </li>
 
-              <li class="nav-item"><a class="nav-link" href="https://tnpcb.gov.in/meendummanjappai/" target="_blank">Plastic Waste Mgt Cell  </a> </li>
-              <li class="nav-item"><a class="nav-link" href="https://tnpcb.gov.in/openhouse/" target="_blank">open house </a></li>
-              <li class="nav-item"><a class="nav-link" href="https://tnpcbtest.in/APPLIVE/app-release.apk" target="_blank">GIS  App</a> </li>
-           
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Realtime Monitoring <span class="nav-indicator"><i class="caret"></i></span> </a>
+                <ul class="dropdown-menu dropdown-menu-rt" role="menu" style="width:auto;">
+                  <li class="nav-item"><a href="#">Air/water</a></li>
+                  <li class="nav-item"><a href="#">AQI</a></li>
+                </ul>
+			        </li>
+
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Citizen corner<span class="nav-indicator"><i class="caret"></i></span> </a>
+                <ul class="dropdown-menu dropdown-menu-rt" role="menu" style="width:auto;">
+                  <li class="nav-item"><a href="#">Open house</a></li>
+                  <li class="nav-item"><a href="#">OLGPRS</a></li>
+                  <li class="nav-item"><a href="#">RTI</a></li>
+                  <li class="nav-item"><a href="#">Public Gos</a></li>
+                  <li class="nav-item"><a href="#">Public Hearing</a></li>
+                  <li class="nav-item"><a href="#">Environmental Awareness</a></li>
+                </ul>
+			        </li>
+
+              <li class="nav-item dropdown"><a class="nav-link" href="#" data-toggle="dropdown">Court Cases<span class="nav-indicator"><i class="caret"></i></span> </a>
+                <ul class="dropdown-menu dropdown-menu-rt" role="menu" style="width:auto;">
+                  <li class="nav-item"><a href="#">NGT</a></li>
+                </ul>
+			        </li>
+
+             
 
             </ul>
             
@@ -245,35 +413,37 @@
        margin: 0;
        padding: 0;
        background-color: #f4f4f9;
-       color: #333;
-       margin-top: 200px;
+       color: #000000;
+       margin-top: 100px;
     }
     .section {
        padding: 50px 5%;
-       max-width: 1200px;
+       
        margin: auto;
     }
     .section h1 {
-       font-size: 4rem;  /* Increased font size */
+       font-size: 30px;  /* Increased font size */
        color: #0056b3;
-       text-align: center;
-       margin-bottom: 30px;
+       text-align: start;
+       margin-top: 30px;
+       margin-bottom: 15px;
        animation: fadeInDown 1s ease;
     }
-    .section h2 {
-       font-size: 3.2rem;  /* Increased font size */
+    .section h6 {
+      
        color: #0056b3;
        margin-bottom: 20px;
        text-transform: uppercase;
        border-bottom: 2px solid #0056b3;
        display: inline-block;
-       padding-bottom: 8px;
+       padding-bottom: 2px;
     }
     .section p {
-       font-size: 2.2rem;  /* Increased font size */
-       line-height: 1.8;
+       font-size: 2.0rem;  /* Increased font size */
+       line-height: 1.5;
        margin-bottom: 30px;
        animation: fadeIn 1.2s ease;
+       text-align: justify;
     }
     .section ul {
        list-style-type: none;
@@ -299,7 +469,7 @@
        border: 1px solid #ccc;
        padding: 15px;  /* Increased padding */
        text-align: left;
-       font-size: 2.2rem;  /* Increased font size */
+       font-size: 16px;  /* Increased font size */
     }
     .table th {
        background: #0056b3;
@@ -319,6 +489,7 @@
        color: #ff6f61;
        font-weight: bold;
     }
+
     @keyframes fadeIn {
        from { opacity: 0; transform: translateY(20px); }
        to { opacity: 1; transform: translateY(0); }
@@ -356,17 +527,36 @@
           font-size: 2rem;  /* Adjusted for mobile */
        }
     }
+    .aboutimg {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+}
+
+.aboutimg::before {
+    content: "About TNPCB";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
  </style>
-  <body >
-    <section class="section" style="margin-top: 30px;">
-       <h1>About Tamil Nadu Pollution Control Board (TNPCB)</h1>
-       <p>The Tamil Nadu Pollution Control Board (TNPCB), established on <span class="highlight">February 27, 1982</span>, is dedicated to safeguarding the environment through stringent policies and regulations. With a vision to ensure sustainable development, the TNPCB monitors industries and promotes eco-friendly practices.</p>
+  <body>
+    <section class=" section" style="margin-top: 30px;">
+      <div class="image-container aboutimg">
+       <img src="images/bg/bgbanner.jpg" alt="" width="100%" height="250px">
+    </div>
+       <h1>About TNPCB</h1>
+       <p>The Tamil Nadu Pollution Control Board (TNPCB), established on February 27, 1982, is dedicated to safeguarding the environment through stringent policies and regulations. With a vision to ensure sustainable development, the TNPCB monitors industries and promotes eco-friendly practices.</p>
        
        <!-- <div class="image-container">
           <img src="https://example.com/tnpcb_image.jpg" alt="TNPCB Headquarters">
        </div> -->
  
-       <h2>Core Legislations and Rules</h2>
+       <h6 >Core Legislations and Rules</h6>
        <ul>
           <li>The Water (Prevention and Control of Pollution) Act, 1974</li>
           <li>The Air (Prevention and Control of Pollution) Act, 1981</li>
@@ -378,16 +568,16 @@
           <li>The Construction and Demolition Waste Management Rules, 2016</li>
        </ul>
  
-       <h2>Recent Initiatives</h2>
+       <h6>Recent Initiatives</h6>
        <p>In addition to its regulatory role, TNPCB has launched innovative initiatives to promote sustainability:</p>
        <ul>
-          <li>Implementing <span class="highlight">Zero Waste Management</span> in urban areas.</li>
+          <li>Implementing Zero Waste Management in urban areas.</li>
           <li>Promoting the use of green technologies in industries.</li>
           <li>Setting up air quality monitoring stations across major cities.</li>
           <li>Conducting workshops and training sessions for environmental awareness.</li>
        </ul>
  
-       <h2>Monitoring and Inspection</h2>
+       <h6>Monitoring and Inspection</h6>
        <p>Industries are monitored based on pollution load, categorized as Red, Orange, or Green. Regular inspections and sample collections are conducted:</p>
        <table class="table">
           <tr>
@@ -416,12 +606,12 @@
           </tr>
        </table>
  
-       <h2>Special Initiatives</h2>
+       <h6>Special Initiatives</h6>
        <p>Through focused programs, TNPCB is making strides in environmental preservation:</p>
        <ul>
-          <li>Facilitating <span class="highlight">Common Effluent Treatment Plants (CETPs)</span> for small-scale industries.</li>
+          <li>Facilitating Common Effluent Treatment Plants (CETPs) for small-scale industries.</li>
           <li>Identifying safe sites for hazardous waste disposal.</li>
-          <li>Establishing the <span class="highlight">Environmental Training Institute</span> to educate stakeholders.</li>
+          <li>Establishing the Environmental Training Institute to educate stakeholders.</li>
        </ul>
     </section>
  </body>
@@ -434,12 +624,12 @@
           <div class="textwidget"> 
             <address>
             <ul>
-              <li><img src="images/logos/TNPCB-80.jpg" alt=""></li>
+              <li><img src="images/logos/pcb-logo.png " style="width: 80px; height: 80px;" alt=""></li>
              
-              <li> <i class="fas fa-university"></i> <strong>Corporate Office :</strong> Tamil Nadu Pollution Control Board
+              <li> <i class="fas fa-university"></i>
                 76, Mount Salai, Guindy, Chennai - 600 032</li>
-              <li> <i class="fas fa-envelope"></i> <strong>Email:</strong> Email : grievance@tnpcb.gov.in</li>
-              <li> <i class="fas fa-phone"></i> <strong>Call us:</strong>Phone : 044-22353134-139 <br>
+              <li> <i class="fas fa-envelope"></i>  Email : grievance@tnpcb.gov.in</li>
+              <li> <i class="fas fa-phone"></i>Phone : 044-22353134-139 <br>
                 Fax : 044-22353068</li>
             </ul>
             </address>
@@ -462,7 +652,7 @@
         <!--Footer Widget End--> 
         <!--Footer Widget Start-->
         <div class="col-md-2 col-sm-6">
-          <div class="footer-widget">
+          <div class="footer-widget" style="margin-top: 40px;">
             <ul>
               <li><a href="#"><i class="fas fa-star"></i>About Us</a></li>
               <li><a href="#"><i class="fas fa-star"></i>Awards</a></li>
@@ -476,8 +666,8 @@
         <!--Footer Widget End--> 
         <!--Footer Widget Start-->
         <div class="col-md-4 col-sm-6">
-          <h4><i class="fa-solid fa-location-dot"></i>Location</h4>
-          <div class="i-map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1112.0826139986332!2d80.21835257223483!3d13.011839209098264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52676d34cb0ec3%3A0xd0c6d9d643ee58a7!2sTamil%20Nadu%20Pollution%20Control%20Board!5e1!3m2!1sen!2sin!4v1732085247071!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <h5 style="color: white;"><i class="fa-solid fa-location-dot" ></i>&nbsp;Location</h5>
+          <div class="i-map"> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3268.8687454023525!2d80.21683865096108!3d13.01260622649869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52676d34cb0ec3%3A0xd0c6d9d643ee58a7!2sTamil%20Nadu%20Pollution%20Control%20Board!5e0!3m2!1sen!2sin!4v1732253321605!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
          
         </div>
         <!--Footer Widget End--> 

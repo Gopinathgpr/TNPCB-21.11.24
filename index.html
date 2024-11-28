@@ -8,7 +8,7 @@
 <title>TNPCB</title>
 <!-- CSS Files -->
 <link href="css/custom.css" rel="stylesheet">
-<link rel="stylesheet" href="/css/style.css">
+<!-- <link rel="stylesheet" href="/css/style.css"> -->
 <link href="css/responsive.css" rel="stylesheet">
 <link href="css/color.css" rel="stylesheet">
 <link href="css/all.css" rel="stylesheet">
@@ -21,10 +21,14 @@
 <!-- Include Fancybox CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 
+<!-- BS 5 -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
 <!-- Include Fancybox JS -->
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
-<link rel="stylesheet" href="/css/style.css">
+<!-- <link rel="stylesheet" href="/css/style.css"> -->
 
 <!--Rev Slider Start-->
 <link rel="stylesheet" href="js/rev-slider/css/settings.css"  type='text/css' media='all' />
@@ -34,6 +38,17 @@
 
 </head>
 <body>
+  <!-- <script>
+    function adjustFontSize() {
+      const screenWidth = window.innerWidth;
+      const fontSize = Math.max(9, Math.min(16, screenWidth / 50)); 
+      document.body.style.fontSize = fontSize + "px";
+    }
+  
+   
+    window.addEventListener("resize", adjustFontSize);
+    window.addEventListener("load", adjustFontSize);
+  </script> -->
 <!--Wrapper Start-->
 <div class="wrapper "> 
   <!--Header Start-->
@@ -65,7 +80,7 @@
                     <span
                       data-size="13px"
                       class="change-fs mm-fontsize"
-                      style="font-size: 12px; margin-left: 8px"
+                      style="font-size: 12px;"
                     >
                       <a
                         href="#"
@@ -78,7 +93,7 @@
                     <span
                       data-size="16px"
                       class="change-fs mm-fontsize"
-                      style="font-size: 14px; margin: 0 8px"
+                      style="font-size: 14px; margin: 0 2px"
                     >
                       <a
                         href="#"
@@ -226,9 +241,9 @@
              
             </h3>
           </div>
-          <button class="col-sm-2 col-md-2 btn-v d-flex flex-column">
+          <button class="col-sm-2 col-md-2 btn-v d-flex flex-column " style="flex-basis: 20%;">
             <div style="font-size: smaller;">Toll Free:</div>
-            <div> <b>1800 4256 750</b></div>
+            <div > <b>1800 4256 750</b></div>
            
           </button>
           
@@ -917,14 +932,14 @@
     <section class="wf100 p75-50  depart-info">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 col-sm-12 ">
             <!-- <div class="title-style-3">
                 <h3 style="color: #FFFFFF;">Departments & Information Desk</h3>
                 <p style="color: #FFFFFF;">Read the News Updates and Articles about Government</p>
             </div> -->
             <div class="row"> 
                 <!--Icon Box Start-->
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-3 col-sm-6 ">
                     <div class="deprt-icon-box">
                         <div class="icon-content-wrapper">
                             <img src="images/deprticon1.png" alt="History & Establishment" class="icon-img">
@@ -938,7 +953,7 @@
                 <!--Icon Box End-->
     
                 <!--Icon Box Start-->
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-3 col-sm-6 ">
                     <div class="deprt-icon-box">
                         <div class="icon-content-wrapper">
                             <img src="images/deprticon2.png" alt="Government Economy" class="icon-img">
@@ -952,7 +967,7 @@
                 <!--Icon Box End-->
     
                 <!--Icon Box Start-->
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-3 col-sm-6 ">
                     <div class="deprt-icon-box">
                         <div class="icon-content-wrapper">
                             <img src="images/deprticon3.png" alt="Constitution & Government Law" class="icon-img">
@@ -966,7 +981,7 @@
                 <!--Icon Box End-->
     
                 <!--Icon Box Start-->
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-3 col-sm-6 ">
                     <div class="deprt-icon-box">
                         <div class="icon-content-wrapper">
                             <img src="images/deprticon4.png" alt="International & Current Affairs" class="icon-img">
@@ -980,7 +995,7 @@
                 <!--Icon Box End-->
     
                 <!--Icon Box Start-->
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="deprt-icon-box">
                         <div class="icon-content-wrapper">
                             <img src="images/deprticon5.png" alt="Business & Administrations" class="icon-img">
@@ -994,7 +1009,7 @@
                 <!--Icon Box End-->
     
                 <!--Icon Box Start-->
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="deprt-icon-box">
                         <div class="icon-content-wrapper">
                             <img src="images/deprticon6.png" alt="Budget & Govt. Policies" class="icon-img">
@@ -1006,7 +1021,7 @@
                     </div>
                 </div>
                 <!--Icon Box End-->
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-3 col-sm-6">
                   <div class="deprt-icon-box">
                       <div class="icon-content-wrapper">
                           <img src="images/deprticon1.png" alt="History & Establishment" class="icon-img">
@@ -1020,7 +1035,7 @@
               <!--Icon Box End-->
   
               <!--Icon Box Start-->
-              <div class="col-md-3 col-sm-3">
+              <div class="col-md-3 col-sm-6">
                   <div class="deprt-icon-box">
                       <div class="icon-content-wrapper">
                           <img src="images/deprticon2.png" alt="Government Economy" class="icon-img">
@@ -1235,8 +1250,9 @@
         </div>
         <!--Footer Widget End--> 
         <!--Footer Widget Start-->
-        <div class="col-md-2 col-sm-6">
-          <div class="footer-widget" style="margin-top: 40px;">
+        <div class="col-md-3 col-sm-6">
+          <div class="footer-widget" >
+            <h6>Reach us</h6>
             <ul>
               <li><a href="#"><i class="fas fa-star"></i>About Us</a></li>
               <li><a href="#"><i class="fas fa-star"></i>Awards</a></li>
@@ -1249,7 +1265,7 @@
         </div>
         <!--Footer Widget End--> 
         <!--Footer Widget Start-->
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-3 col-sm-6">
           <h5 style="color: white;"><i class="fa-solid fa-location-dot" ></i>&nbsp;Location</h5>
           <div class="i-map"> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3268.8687454023525!2d80.21683865096108!3d13.01260622649869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52676d34cb0ec3%3A0xd0c6d9d643ee58a7!2sTamil%20Nadu%20Pollution%20Control%20Board!5e0!3m2!1sen!2sin!4v1732253321605!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
          
@@ -1262,19 +1278,21 @@
   <!--Footer Start-->
   <footer class="home3 footer wf100">
     <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-sm-7">
-          <p class="copyr">Rights Reserved © 2024, By: <a href="index.html">TNPCB</a></p>
-        </div>
-        <div class="col-md-5 col-sm-5">
-          <ul class="footer-social">
+      <div style="display: flex; justify-content: space-between; text-align: center;">
+        <ul class="copyright">
+          <li >
+          <p style="margin: 0px;">Rights Reserved © 2024, By: <a href="index.html">TNPCB</a></p>
+        </li>
+        </ul>
+        
+          <ul class="socialicons">
             <li><a href="#" class="fb"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="#" class="tw"><i class="fab fa-twitter"></i></a></li>
             <li><a href="#" class="insta"><i class="fab fa-instagram"></i></a></li>
             <li><a href="#" class="linken"><i class="fab fa-linkedin-in"></i></a></li>
             <li><a href="#" class="yt"><i class="fab fa-youtube"></i></a></li>
           </ul>
-        </div>
+       
       </div>
     </div>
   </footer>

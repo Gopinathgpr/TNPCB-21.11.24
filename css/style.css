@@ -38,7 +38,7 @@
 .social-icons {
   list-style: none;
   display: flex;
-  justify-content: flex-end; /* Align icons to the right */
+  justify-content: flex-end; 
   margin: 0;
   padding: 0;
 }
@@ -55,7 +55,7 @@
 }
 
 .social-icons li a:hover {
-  color: #00aced; /* Change hover color if needed */
+  color: #00aced; 
 }
 
 .search-container {
